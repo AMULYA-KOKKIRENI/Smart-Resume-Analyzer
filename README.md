@@ -1,2 +1,15 @@
-# Smart-Resume-Analyzer
-AI-based resume analyzer using NLP to match resumes with job descriptions
+# 🧠Smart Resume Analyzer
+##  Project Description
+Smart Resume Analyzer is an AI-based application that analyzes resumes and matches them with job descriptions using NLP techniques.
+## Features
+- Resume PDF upload
+- Skill extraction using NLP
+- Job description matching
+- Match percentage calculation
+- Missing skills identification
+## 🛠️ Tech Stack
+- Python
+- spaCy (NLP)
+- Streamlit
+##  Author
+Amulya Kokkireni
