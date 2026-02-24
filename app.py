@@ -24,8 +24,8 @@ if resume_file and job_description:
     job_text = job_description.lower()
 
     # Extract skills
-    resume_skills = extract_skills(resume_text, skills_list)
-    job_skills = extract_skills(job_text, skills_list)
+     resume_skills = extract_skills(resume_text)
+    job_skills = extract_skills(job_description)
 
     # Match skills
     matched, missing, score = match_skills(resume_skills, job_skills)
